@@ -4,3 +4,6 @@
 [submodule "misc/php/themes/feedly"]
 	path = misc/php/themes/feedly
 	url = https://github.com/levito/tt-rss-feedly-theme.git
+[submodule "misc/php/plugins/Tiny-Tiny-RSS-Contrib"]
+	path = misc/php/plugins/Tiny-Tiny-RSS-Contrib
+	url = https://github.com/gothfox/Tiny-Tiny-RSS-Contrib.git
