@@ -25,5 +25,8 @@ fi
 echo "Configuring Sphinx: Configuration" | tee -a ${OPENSHIFT_PHP_LOG_DIR}/deploy.log
 ${OPENSHIFT_REPO_DIR}/misc/sed-sphinx.sh > ${OPENSHIFT_DATA_DIR}/sphinx/etc/sphinx.conf
 
+# Add custom themes
+ln -sf $OPENSHIFT_REPO_DIR/misc/php/themes/* $OPENSHIFT_REPO_DIR/php/themes
+
 echo "Leaving build." | tee -a ${OPENSHIFT_PHP_LOG_DIR}/deploy.log
 exit 0
