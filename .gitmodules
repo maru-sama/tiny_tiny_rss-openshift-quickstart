@@ -7,3 +7,6 @@
 [submodule "misc/php/plugins/Tiny-Tiny-RSS-Contrib"]
 	path = misc/php/plugins/Tiny-Tiny-RSS-Contrib
 	url = https://github.com/gothfox/Tiny-Tiny-RSS-Contrib.git
+[submodule "misc/php/plugins/fever-plugin"]
+	path = misc/php/plugins/fever-plugin
+	url = https://github.com/maru-sama/tinytinyrss-fever-plugin

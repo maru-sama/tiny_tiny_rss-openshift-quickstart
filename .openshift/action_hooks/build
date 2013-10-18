@@ -43,5 +43,8 @@ ln -sf $OPENSHIFT_REPO_DIR/misc/php/themes/* $OPENSHIFT_REPO_DIR/php/themes
 # Add pocket plugin
 ln -sf $OPENSHIFT_REPO_DIR/misc/php/plugins/Tiny-Tiny-RSS-Contrib/plugins/pocket $OPENSHIFT_REPO_DIR/php/plugins
 
+# Add fever plugin
+ln -sf $OPENSHIFT_REPO_DIR/misc/php/plugins/fever-plugin/fever $OPENSHIFT_REPO_DIR/php/plugins
+
 echo "Leaving build." | tee -a ${OPENSHIFT_PHP_LOG_DIR}/deploy.log
 exit 0
