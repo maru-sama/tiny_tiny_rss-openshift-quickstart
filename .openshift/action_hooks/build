@@ -46,5 +46,8 @@ ln -sf $OPENSHIFT_REPO_DIR/misc/php/plugins/Tiny-Tiny-RSS-Contrib/plugins/pocket
 # Add fever plugin
 ln -sf $OPENSHIFT_REPO_DIR/misc/php/plugins/fever-plugin/fever $OPENSHIFT_REPO_DIR/php/plugins
 
+# Add videoframes plugin
+ln -sf $OPENSHIFT_REPO_DIR/misc/php/plugins/videoframes/videoframes $OPENSHIFT_REPO_DIR/php/plugins
+
 echo "Leaving build." | tee -a ${OPENSHIFT_PHP_LOG_DIR}/deploy.log
 exit 0

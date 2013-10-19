@@ -10,3 +10,6 @@
 [submodule "misc/php/plugins/fever-plugin"]
 	path = misc/php/plugins/fever-plugin
 	url = https://github.com/maru-sama/tinytinyrss-fever-plugin
+[submodule "misc/php/plugins/videoframes"]
+	path = misc/php/plugins/videoframes
+	url = https://github.com/tribut/ttrss-videoframes.git
