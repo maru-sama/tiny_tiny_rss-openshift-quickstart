@@ -183,6 +183,12 @@
 
 	define('CHECK_FOR_NEW_VERSION', true);
 	// Check for new versions of tt-rss automatically.
+	
+	define('DETECT_ARTICLE_LANGUAGE', false);
+	// Detect article language when updating feeds, presently this is only
+    	// used for hyphenation. This may increase amount of CPU time used by
+    	// update processes, disable if necessary (i.e. you are being billed
+    	// for CPU time).
 
 	define('DETECT_ARTICLE_LANGUAGE', true);
 	// Detect article language when updating feeds, presently this is only
