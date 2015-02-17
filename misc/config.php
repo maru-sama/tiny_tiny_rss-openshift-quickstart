@@ -181,8 +181,8 @@
 	// *** Other settings (less important) ***
 	// ***************************************
 
-	define('CHECK_FOR_NEW_VERSION', true);
-	// Check for new versions of tt-rss automatically.
+	define('CHECK_FOR_UPDATES', false);
+	// Check for updates automatically if running Git version
 	
 	define('DETECT_ARTICLE_LANGUAGE', false);
 	// Detect article language when updating feeds, presently this is only
