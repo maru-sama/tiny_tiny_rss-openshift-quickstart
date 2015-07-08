@@ -3,8 +3,8 @@
 # by Skye Book <skye.book@gmail.com>
  
 NOW="$(date +"%Y-%m-%d")"
-FILENAME="$OPENSHIFT_DATA_DIR/dbbackup/$OPENSHIFT_APP_NAME.$NOW.backup.sql.xz"
-find $OPENSHIFT_DATA_DIR -name $OPENSHIFT_APP_NAME.*backup* -type f -mtime +30 -exec rm '{}' \;
-pg_dump $OPENSHIFT_APP_NAME | xz > $FILENAME
+FILENAME="$OPENSHIFT_DATA_DIR/dbbackup/$OPENSHIFT_APP_NAME.$NOW.backup.sql.bak"
+find $OPENSHIFT_DATA_DIR/dbbackup -name $OPENSHIFT_APP_NAME.*backup* -type f -mtime +30 -exec rm '{}' \;
+pg_dump $OPENSHIFT_APP_NAME -Fc -f $FILENAME
 
 exit 0
