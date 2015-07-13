@@ -196,7 +196,7 @@
 	// update processes, disable if necessary (i.e. you are being billed
 	// for CPU time).
 
-	define('ENABLE_GZIP_OUTPUT', true);
+	define('ENABLE_GZIP_OUTPUT', false);
 	// Selectively gzip output to improve wire performance. This requires
 	// PHP Zlib extension on the server.
 	// Enabling this can break tt-rss in several httpd/php configurations,
