@@ -1,12 +1,12 @@
 [submodule "php"]
 	path = php
-	url = https://github.com/gothfox/Tiny-Tiny-RSS.git
+	url = https://tt-rss.org/gitlab/fox/tt-rss.git
 [submodule "misc/php/themes/feedly"]
 	path = misc/php/themes/feedly
 	url = https://github.com/levito/tt-rss-feedly-theme.git
 [submodule "misc/php/plugins/Tiny-Tiny-RSS-Contrib"]
 	path = misc/php/plugins/Tiny-Tiny-RSS-Contrib
-	url = https://github.com/gothfox/Tiny-Tiny-RSS-Contrib.git
+	url = https://tt-rss.org/gitlab/fox/tt-rss-samples.git
 [submodule "misc/php/plugins/fever-plugin"]
 	path = misc/php/plugins/fever-plugin
 	url = https://github.com/maru-sama/tinytinyrss-fever-plugin
