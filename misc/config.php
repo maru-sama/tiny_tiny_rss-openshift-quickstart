@@ -184,12 +184,6 @@
 	define('CHECK_FOR_UPDATES', false);
 	// Check for updates automatically if running Git version
 	
-	define('DETECT_ARTICLE_LANGUAGE', false);
-	// Detect article language when updating feeds, presently this is only
-    	// used for hyphenation. This may increase amount of CPU time used by
-    	// update processes, disable if necessary (i.e. you are being billed
-    	// for CPU time).
-
 	define('DETECT_ARTICLE_LANGUAGE', true);
 	// Detect article language when updating feeds, presently this is only
 	// used for hyphenation. This may increase amount of CPU time used by 
