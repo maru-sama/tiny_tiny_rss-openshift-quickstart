@@ -42,7 +42,6 @@ if [ ! -d ${OPENSHIFT_DATA_DIR}/dbbackup ]; then
   echo "Creating database backup directory"| tee -a ${OPENSHIFT_PHP_LOG_DIR}/deploy.log
   mkdir -p ${OPENSHIFT_DATA_DIR}/dbbackup
 fi
-l
 
 # Add custom themes
 ln -sf $OPENSHIFT_REPO_DIR/misc/php/themes/* $OPENSHIFT_REPO_DIR/php/themes
